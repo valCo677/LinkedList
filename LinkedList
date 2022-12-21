@@ -1,0 +1,15 @@
+public class Main {
+    public static void main( String[] args ) {
+        new LinkedList();
+        LinkedList<String> cars = new LinkedList<String> ();
+        cars.add ( "Volvo" );
+        cars.add ( "BMW" );
+        cars.add ( "Ford" );
+        cars.add ( "Mazda" );
+        cars.add ("Tesla");
+        System.out.println ( cars );
+        System.out.println ( cars.get ( 4 ) );
+    }
+}
+
+
